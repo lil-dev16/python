@@ -27,6 +27,6 @@ def check_win(player, computer):
         else:
             return "you lose, scissors cuts paper"
 
-choicxs = get_choices();
+choicxs = get_choices()
 
-print(check_win(choicxs["player"], choicxs["computer"]));
+print(check_win(choicxs["player"], choicxs["computer"]))
